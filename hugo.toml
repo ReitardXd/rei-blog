@@ -1,0 +1,15 @@
+baseURL = "https://reitardxd.tech/"
+title = "rei's writeups"
+theme = "PaperMod"
+pygmentsUseClasses = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowRSSButtonInSectionTermList = true
+  ShowCodeCopyButtons = true
+  ShowToc = true

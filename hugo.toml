@@ -13,3 +13,31 @@ pygmentsUseClasses = true
   ShowRSSButtonInSectionTermList = true
   ShowCodeCopyButtons = true
   ShowToc = true
+  mainSections = ["htb", "thm", "projects", "codeforces", "philosophy"]
+
+[menu]
+  [[menu.main]]
+    identifier = "htb"
+    name = "HTB"
+    url = "/htb/"
+    weight = 10
+  [[menu.main]]
+    identifier = "thm"
+    name = "THM"
+    url = "/thm/"
+    weight = 20
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 30
+  [[menu.main]]
+    identifier = "codeforces"
+    name = "Codeforces"
+    url = "/codeforces/"
+    weight = 40
+  [[menu.main]]
+    identifier = "philosophy"
+    name = "Philosophy"
+    url = "/philosophy/"
+    weight = 50

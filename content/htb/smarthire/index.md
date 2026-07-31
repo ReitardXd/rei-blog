@@ -1,7 +1,9 @@
-+++
-date = '2026-07-31T14:26:02+05:30'
-draft = true
-title = 'Smarthire'
-+++
-
-Pwned **Smarthire** on HTB  — full writeup coming soon. Stay tuned.
+---
+title: "Smarthire - HackTheBox"
+date: 2026-07-31
+tags: ["htb", "web"]
+draft: false
+---
+Pwned Smarthire — got user and root. Full writeup coming soon.
+<!--more-->
+(full writeup in progress — will fill in enumeration, exploitation, and privesc steps here)

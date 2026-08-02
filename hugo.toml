@@ -1,19 +1,46 @@
 baseURL = "https://reitardxd.tech/"
 title = "rei's writeups"
-theme = "PaperMod"
 pygmentsUseClasses = true
 
+[build]
+  _merge = "deep"
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["html", "searchIndex"]
   section = ["HTML", "RSS"]
 
 [params]
-  defaultTheme = "auto"
-  disableThemeToggle = false
-  ShowRSSButtonInSectionTermList = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+  defaultTheme = "dark"
+  themeColor = "aqua"
+  themeContrast = "medium"
   mainSections = ["htb", "thm", "projects", "codeforces", "philosophy"]
+
+  [params.prism]
+    languages = [
+      "markup",
+      "css",
+      "clike",
+      "javascript",
+      "bash",
+      "python",
+      "c",
+      "cpp",
+      "go",
+      "sql",
+      "yaml",
+      "toml",
+    ]
+    plugins = [
+      "normalize-whitespace",
+      "toolbar",
+      "copy-to-clipboard",
+      "line-numbers",
+    ]
+
+  [params.tagCloud]
+    enable = false
+    minFontSizeRem = 0.8
+    maxFontSizeRem = 2.0
 
 [menu]
   [[menu.main]]
@@ -41,3 +68,48 @@ pygmentsUseClasses = true
     name = "Philosophy"
     url = "/philosophy/"
     weight = 50
+
+[module]
+  [[module.imports]]
+    path = "github.com/schnerring/hugo-theme-gruvbox"
+  [[module.imports]]
+    path = "github.com/schnerring/hugo-mod-json-resume"
+    [[module.imports.mounts]]
+      source = "data"
+      target = "data"
+    [[module.imports.mounts]]
+      source = "layouts"
+      target = "layouts"
+    [[module.imports.mounts]]
+      source = "assets/css/json-resume.css"
+      target = "assets/css/critical/44-json-resume.css"
+  [[module.mounts]]
+    source = "node_modules/simple-icons/icons"
+    target = "assets/simple-icons"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "node_modules/prismjs"
+    target = "assets/prismjs"
+  [[module.mounts]]
+    source = "node_modules/prism-themes/themes"
+    target = "assets/prism-themes"
+  [[module.mounts]]
+    source = "node_modules/typeface-fira-code/files"
+    target = "static/fonts"
+  [[module.mounts]]
+    source = "node_modules/typeface-roboto-slab/files"
+    target = "static/fonts"
+  [[module.mounts]]
+    source = "node_modules/@tabler/icons/icons"
+    target = "assets/tabler-icons"
+  [[module.mounts]]
+    source = "hugo_stats.json"
+    target = "assets/watching/hugo_stats.json"

@@ -1,3 +1,6 @@
+[submodule "themes/gruvbox"]
+	path = themes/gruvbox
+	url = https://github.com/schnerring/hugo-theme-gruvbox
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod

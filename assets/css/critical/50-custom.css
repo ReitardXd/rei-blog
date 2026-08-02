@@ -1,0 +1,21 @@
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+main {
+  grid-template-columns: 1fr minmax(0, 860px) 1fr;
+}
+
+.post {
+  padding: 1.2rem 0;
+}
+
+.content-section {
+  padding-top: 3rem;
+}
+
+.post-tags .post-tag {
+  color: var(--fg);
+}

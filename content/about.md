@@ -8,6 +8,7 @@ pranav roy — cs undergrad at SRMIST (2023-2027), final year.
 
 interested in security, low-level systems, and competitive programming.
 this blog is where i document ctf writeups, htb/thm machines, codeforces contest editorials, project notes, and occasional philosophy.
+new blogs every week hopefully :).
 
 find me elsewhere:
 - [github](https://github.com/ReitardXd)

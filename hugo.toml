@@ -68,6 +68,11 @@ pygmentsUseClasses = true
     name = "Philosophy"
     url = "/philosophy/"
     weight = 50
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 60
 
 [module]
   [[module.imports]]

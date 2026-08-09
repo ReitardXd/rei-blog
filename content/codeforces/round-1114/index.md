@@ -13,9 +13,9 @@ Contest: [Codeforces Round 1114 (Div. 3)](https://codeforces.com/contest/2254)
 Refer to this article for the boilerplate
 [Boilerplate](https://reitardxd.tech/codeforces/round-1113/)
 
-## Summaryi
+## Summary
 
-I managed to solve A,B,C1,C2,D,E and F although i partially solved F but the got a failed test case 2 error when i submitted it regardless i did manage to solve it later after the contest ended. Gained about a +40 rating from 1523 to 1563 so i am happy although i was hoping to solve both F and G also i started the contest a little late so maybe i could have solved F and submitted it . This blog is going to be long so please open a code editor if you want to solve it while reading this
+I managed to solve A,B,C1,C2,D,E and F(at the end of the contest) although i partially solved F but  got a failed test case 2 error when i submitted it regardless i did manage to solve it later after the contest ended. Gained about a +40 rating from 1523 to 1563 so i am happy although i was hoping to solve both F and G also i started the contest a little late so maybe i could have solved F and submitted it . This blog is going to be long so please open a code editor if you want to solve it while reading this
 
 ---
 

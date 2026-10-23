@@ -4,14 +4,15 @@ layout: "about"
 url: "/about/"
 draft: false
 ---
-pranav roy — cs undergrad at SRMIST (2023-2027), final year.
+hello i am reitardxd a cs undergrad 
 
-interested in security, low-level systems, and competitive programming.
-this blog is where i document ctf writeups, htb/thm machines, codeforces contest editorials, project notes, and occasional philosophy.
-new blogs every week hopefully :).
+interested in security, low-level systems, and competitive programming and some other stuff.
+this blog is where i document ctf writeups, codeforces contest editorials, project notes, and occasional philosophy(maybe).
+new blogs every 2 weeks (hopefully). 
 
 find me elsewhere:
 - [github](https://github.com/ReitardXd)
-- [linkedin](https://www.linkedin.com/in/pranav-r-4b2661209/)
-- [portfolio](https://reitardxd.me)
-- email: pranav.k.roy161@gmail.com
+- [linkedin](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [portfolio](https://reitardxd.me) 
+- [twitter](https://x.com/RiderHog1970)  
+- email: falkensmaze101@gmail.com 
